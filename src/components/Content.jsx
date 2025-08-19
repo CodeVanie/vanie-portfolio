@@ -8,7 +8,7 @@ function Content({ selectedPage }) {
 
     return (
         <>
-            <main className="border border-pink-300 w-full h-full">
+            <main className="flex-grow">
                 {selectedPage === "home" && <HomeContent />}
                 {selectedPage === "aboutme" && <AboutMeContent />}
                 {selectedPage === "projects" && <ProjectsContent />}
