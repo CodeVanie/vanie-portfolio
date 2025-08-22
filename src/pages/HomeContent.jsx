@@ -1,9 +1,7 @@
 
 function HomeContent() {
     return (
-        <>
-            <h1 className="page-header">HOME</h1>
-        </>
+        <h1 className="page-header">HOME</h1>
     )
 }
 

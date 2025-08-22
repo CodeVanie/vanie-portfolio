@@ -1,4 +1,4 @@
-import aboutme from './profile-logo.png'
+import aboutme from './about-logo.png'
 import projects from './projects-logo.png'
 import home from './home-logo.png'
 import extra from './extra-logo.png'

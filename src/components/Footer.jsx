@@ -1,11 +1,9 @@
 
 function Footer() {
     return (
-        <>
-            <footer className="main-footer">
-                Copyright © {new Date().getFullYear()} CodeVANIE. All rights reserved.
-            </footer>
-        </>
+        <footer className="main-footer">
+            Copyright © 2025 CodeVANIE. All rights reserved.
+        </footer>
     )
 }
 

@@ -6,7 +6,7 @@ function App() {
   const [selectedPage, setSelectedPage] = useState("home");
 
   return (
-    <div className="main-app">
+    <div className="flex flex-col min-h-screen">
         <Header currentPage={selectedPage} onNavBarClick={setSelectedPage}/>
         <Content selectedPage={selectedPage}/>
         <Footer />

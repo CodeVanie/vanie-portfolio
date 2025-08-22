@@ -1,5 +1,4 @@
 /* IMPORTS */
-
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import "tailwindcss";
 @font-face {
@@ -24,62 +23,30 @@
   --font-libert: "Libertinus Sans", sans-serif;
   --color-ptlpink: #FFB3E3;
 }
-
-/* GLOBAL */
-body {
-  @apply bg-[url(assets/images/content-bg.jpg)] bg-center bg-no-repeat bg-cover bg-fixed font-libert min-w-[360px];
-}
-.main-app {
-  @apply flex flex-col min-h-screen;
-}
-.page-header {
-  @apply flex text-2xl p-2 text-ptlpink justify-center;
+/* LAYERS */
+@layer base {
+  body {
+    @apply bg-[url(/images/header-bg.jpg)] bg-center bg-no-repeat bg-cover bg-fixed font-libert min-w-[360px];
+  }
 }
 
-/* HEADER */
-
-.main-header {
-  @apply bg-[url(assets/images/header-bg.jpg)] p-3 w-full;
-}
-.main-header nav {
-  @apply flex flex-col justify-around;
-}
-.main-header-top {
-  @apply flex justify-between items-center mb-3 gap-x-2;
-}
-.main-header-top a {
-  @apply max-w-60 w-[45vw] h-full p-2;
-}
-.main-header-top a img {
-  @apply w-full h-full;
-}
-.main-header-top-toolbar {
-  @apply flex justify-center items-center gap-x-5;
-}
-.main-header-nav-bar {
-  @apply flex flex-row justify-evenly;
-}
-.main-header-nav-bar li {
-  @apply flex flex-1 w-20 h-10 justify-center items-center transition duration-200 ease-in-out;
-}
-.main-header-nav-bar li img {
-  @apply h-6 w-6;
-}
-
-/* ABOUT ME */
-
-.page-aboutme {
-  @apply flex flex-col p-3;
-}
-.page-aboutme-header {
-  @apply flex text-2xl font-bold p-3 text-ptlpink justify-center;
-}
-.page-aboutme p {
-  @apply text-pink-200 text-justify indent-7;
-}
-
-/* FOOTER */
-
-.main-footer {
-  @apply px-20 py-5 bg-[url(assets/images/header-bg.jpg)] bg-no-repeat text-white text-center text-[15px];
+@layer components {
+  /* ABOUT ME */
+  .about-parag {
+    @apply text-pink-200 text-justify indent-7;
+  }
+  /* HEADER */
+  .main-header {
+    @apply bg-[url(/images/header-bg.jpg)] pt-3 px-2;
+  }
+  .main-header nav ul li {
+    @apply flex flex-1 pb-3 pt-1 justify-center items-center transition duration-500 ease-in-out active:border-b-indigo-900/75;
+  }
+  .main-header nav ul li img {
+    @apply w-4 h-4;
+  }
+  /* FOOTER */
+  .main-footer {
+    @apply px-20 py-5 bg-[url(/images/header-bg.jpg)] bg-no-repeat text-ptlpink text-center text-[15px];
+  }
 }
