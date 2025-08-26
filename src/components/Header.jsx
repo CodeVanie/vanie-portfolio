@@ -16,12 +16,12 @@ function Header({ currentPage, onNavBarClick }) {
     return (
         <header className="main-header">
             <nav className='flex flex-col justify-around'>
-                <div className='flex justify-between items-center mb-2'>
-                    <a href="/" className='w-auto p-2'>
-                        <img src={header} alt="header" className='max-w-60 w-[34vw] h-full'/>
+                <div className='flex justify-between items-center mb-3'>
+                    <a href="/" className='flex w-auto items-center'>
+                        <img src={header} alt="header" className='w-38 h-auto'/>
                     </a>
                     <div className='flex justify-center items-center gap-x-5'>
-                        <img src={search} alt="search" className='w-5 h-5 mr-3'/>
+                        <img src={search} alt="search" className='w-5 h-5 mr-1'/>
                         <img src={burger} alt="search" className='w-5 h-5 hidden'/> {/* HIDDEN - DON'T NEED YET */}
                     </div>
                 </div>

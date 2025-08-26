@@ -37,13 +37,13 @@
   }
   /* HEADER */
   .main-header {
-    @apply bg-[url(/images/header-bg.jpg)] pt-3 px-2;
+    @apply bg-[url(/images/header-bg.jpg)] pt-3 px-3;
   }
   .main-header nav ul li {
     @apply flex flex-1 pb-3 pt-1 justify-center items-center transition duration-500 ease-in-out active:border-b-indigo-900/75;
   }
   .main-header nav ul li img {
-    @apply w-4 h-4;
+    @apply w-5 h-5 object-contain;
   }
   /* FOOTER */
   .main-footer {
