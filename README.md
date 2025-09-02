@@ -24,12 +24,15 @@ A personal portfolio website built with **React 19**, **Vite**, and **Tailwind C
 1. Clone the repository:
    ```
    git clone https://github.com/CodeVanie/vanie-portfolio.git
-   cd codevanie-portfolio
+   cd vanie-portfolio
    ```
 
 2. Install dependencies:
    ```
    npm install
+   npm install tailwindcss @tailwindcss/vite
+   npm install react-hook-form
+   
    ```
 3. Start the development server:
    ```
@@ -43,9 +46,10 @@ A personal portfolio website built with **React 19**, **Vite**, and **Tailwind C
    ```
 5. Open the page in 360x640 dimension. (I'm still not done with mobile devices version since I do mobile-first approach.)
 
-📬 Contact
 
-Created with ❤️ by CodeVANIE
+Created with by CodeVANIE
+
+📬 Contact
 
 GitHub: @codevanie
 
