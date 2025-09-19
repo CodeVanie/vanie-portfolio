@@ -2,7 +2,7 @@
 export default function AboutMeContent() {
     
     return (
-        <article className="flex flex-col text-justify p-5 gap-y-10 max-w-6xl relative z-1 mx-auto">
+        <article className="flex flex-col p-5 gap-y-10 max-w-6xl relative z-1 mx-auto">
             <h1 className="text-5xl text-center text-ptlpink animate-titleentry text-shadow-lg text-shadow-ptlpink/50 underline-from-left mx-auto">About Me</h1>
             <div className="about-div">
                 <section>

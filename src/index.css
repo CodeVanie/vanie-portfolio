@@ -44,7 +44,7 @@
 		@apply space-y-5 text-xl;
 	}
 	.about-div section p {
-		@apply indent-7 text-lg animate-paragentry text-ptlpink font-quicks;
+		@apply indent-7 text-lg animate-paragentry text-ptlpink font-quicks text-justify;
 	}
 	/* PROJECTS */
 	.project-tiles {
