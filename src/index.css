@@ -67,13 +67,13 @@
 /* UTILITIES */
 @layer utilities {
 .bg-smooth-purple {
-	@apply bg-[url(/images/header-bg.jpg)];
+	@apply bg-[url(/images/header-bg.webp)];
 }
 .bg-rough-purple {
-	@apply bg-[url(/images/content-bg.jpg)];
+	@apply bg-[url(/images/content-bg.webp)];
 }
 .bg-todotodo {
-	@apply bg-[url(assets/images/todo-bg.jpg)];
+	@apply bg-[url(assets/images/todo-bg.webp)];
 }
 .transition-out-200 {
 	@apply transition ease-out duration-200;
