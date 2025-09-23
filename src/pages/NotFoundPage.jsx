@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 function NotFoundPage() {
+    
     return (
         <div className="flex flex-col gap-x-10 justify-center items-center bg-smooth-purple min-h-screen bg-cover bg-fixed bg-no-repeat bg-center">
             <h1 className="text-[clamp(1rem,5vw+1rem,20vw)] font-bold text-ptlpink text-center">

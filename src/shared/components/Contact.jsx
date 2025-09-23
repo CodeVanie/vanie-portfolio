@@ -1,5 +1,6 @@
 
 export default function Contact({ hasLink, text, children }) {
+    
     return (
         <div className="contact group">
             {hasLink ? 

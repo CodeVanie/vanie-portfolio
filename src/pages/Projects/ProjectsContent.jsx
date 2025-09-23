@@ -8,21 +8,23 @@ export default function ProjectsContent() {
     
     return (
         <ProjectsContentWrapper>
-            <h1 className="text-[clamp(2rem,2vw+1rem,7vw)] font-semibold text-ptlpink text-shadow-lg text-shadow-ptlpink/50 text-center animate-titleentry"><span className="underline-from-left">CodeVANIE's Projects</span></h1>
-            <ProjectsWrapper>
-                <ProjectTodoTile />
-                <ProjectsTilesSoon classDelay="[animation-delay:0.1s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:0.3s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:0.5s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:0.7s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:0.9s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:1.1s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:1.3s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:1.5s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:1.7s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:1.9s]" />
-                <ProjectsTilesSoon classDelay="[animation-delay:2.1s]" />
-            </ProjectsWrapper>
+            <article className="p-10 space-y-10 bg-pink-300/15 rounded-2xl">
+                <h1 className="text-[clamp(2rem,2vw+1rem,7vw)] font-semibold text-ptlpink text-shadow-lg text-shadow-ptlpink/50 text-center animate-titleentry"><span className="underline-from-left">CodeVANIE's Projects</span></h1>
+                <ProjectsWrapper>
+                    <ProjectTodoTile />
+                    <ProjectsTilesSoon classDelay="[animation-delay:0.1s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:0.3s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:0.5s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:0.7s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:0.9s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:1.1s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:1.3s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:1.5s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:1.7s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:1.9s]" />
+                    <ProjectsTilesSoon classDelay="[animation-delay:2.1s]" />
+                </ProjectsWrapper>
+            </article>
         </ProjectsContentWrapper>
     )
 }

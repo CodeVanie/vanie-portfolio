@@ -27,6 +27,9 @@
 
 /* BASE */
 @layer base {
+	html {
+		@apply bg-[url(/images/content-bg.webp)] bg-black bg-cover bg-no-repeat bg-fixed bg-center;
+	}
 	body {
 		@apply font-zendots min-w-[360px];
 	}
