@@ -1,15 +1,16 @@
 # CodeVANIE Portfolio
 
-A personal portfolio website built with **React 19**, **Vite**, and **Tailwind CSS**, showcasing my projects, skills, and experience as a frontend developer. Designed with a **mobile-first, responsive layout** and a clean UI.
+A personal portfolio website built with **React 19**, **Vite**, **JavaScript**, and **Tailwind CSS**, showcasing my projects, skills, and experience as a frontend developer. Designed with a **mobile-first, responsive layout** and a clean UI.
 
 ---
 
 ## 🚀 Features
 - Mobile-first, responsive design
 - Custom components built with React
-- Tailwind CSS for styling and utility-first workflow
-- Sections: About Me, Projects, and Contact
-- Smooth navigation and clean UI/UX
+- Tailwind CSS for styling, custom scrollbars, and utility-first workflow
+- Sections: About Me, Projects, Contact, and Resume
+- Smooth navigation, transitions, and animations.
+- Routing
 
 ---
 
@@ -17,6 +18,12 @@ A personal portfolio website built with **React 19**, **Vite**, and **Tailwind C
 - **React 19**
 - **Vite**
 - **Tailwind CSS v4**
+- **JavaScript**
+
+---
+
+## 🚀 Live Demo
+[View Portfolio](https://vanie-portfolio.vercel.app)  
 
 ---
 
@@ -30,28 +37,24 @@ A personal portfolio website built with **React 19**, **Vite**, and **Tailwind C
 2. Install dependencies:
    ```
    npm install
-   npm install tailwindcss @tailwindcss/vite
-   npm install react-hook-form
    
    ```
 3. Start the development server:
    ```
-   npm run build
+   npm run dev
    
    ```
-4. Build for production:
-   ```
-    npm run build
-   
-   ```
-5. Open the page in 360x640 dimension. (I'm still not done with mobile devices version since I do mobile-first approach.)
+---
 
+## Usage
+1. Simply navigate to each pages using the navigation bar in the Header of the page.
+2. Learn everything about CodeVANIE!
 
-Created with by CodeVANIE
+Created by CodeVANIE
 
 📬 Contact
 
 GitHub: @codevanie
-
 LinkedIn: https://www.linkedin.com/in/codevanie
+Mobile: +63 976 484 2947
 
