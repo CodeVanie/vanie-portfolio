@@ -55,6 +55,8 @@ Created by CodeVANIE
 📬 Contact
 
 GitHub: @codevanie
+
 LinkedIn: https://www.linkedin.com/in/codevanie
+
 Mobile: +63 976 484 2947
 
