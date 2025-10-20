@@ -2,6 +2,7 @@
 import ProjectsContentWrapper from "../../layouts/ProjectsContentWrapper"
 import ProjectsWrapper from "../../layouts/ProjectsWrapper"
 import ProjectFolioTile from "./ProjectFolioTile"
+import ProjectQuizTile from "./ProjectQuizTIle"
 import ProjectsTilesSoon from "./ProjectsTilesSoon"
 import ProjectTodoTile from "./ProjectTodoTile"
 
@@ -14,7 +15,7 @@ export default function ProjectsContent() {
                 <ProjectsWrapper>
                     <ProjectFolioTile />
                     <ProjectTodoTile classDelay="[animation-delay:0.1s]" />
-                    <ProjectsTilesSoon classDelay="[animation-delay:0.3s]" />
+                    <ProjectQuizTile classDelay="[animation-delay:0.3s]" />
                     <ProjectsTilesSoon classDelay="[animation-delay:0.5s]" />
                     <ProjectsTilesSoon classDelay="[animation-delay:0.7s]" />
                     <ProjectsTilesSoon classDelay="[animation-delay:0.9s]" />

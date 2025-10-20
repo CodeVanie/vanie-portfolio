@@ -1,3 +1,5 @@
+import FeatureBox from "../shared/components/FeatureBox";
+import { SQLIcon } from "../shared/icons/IconCollection";
 
 export default function AboutMeContent() {
     
