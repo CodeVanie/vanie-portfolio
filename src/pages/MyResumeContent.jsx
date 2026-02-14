@@ -1,5 +1,5 @@
-import myresume from "/resume/VanieDuranaCV2025v4.pdf";
-import jpgresume from "/resume/VanieDuranaCV2025v4_page.webp";
+import myresume from "/resume/VanieDuranaCV2026.pdf";
+import jpgresume from "/resume/VanieDuranaCV2026_page.webp";
 
 export default function MyResumeContent() {
 	
