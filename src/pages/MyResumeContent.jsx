@@ -2,7 +2,7 @@ import myresume from "/resume/VanieDuranaCV2026.pdf";
 import jpgresume from "/resume/VanieDuranaCV2026_page.webp";
 
 export default function MyResumeContent() {
-	
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 flex flex-col items-center gap-6">
 		<a
